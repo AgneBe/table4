@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+table {
+    margin: 100px auto;
+    border: 1px solid  rgb(240, 200, 19);
+    width: 80%;
+    border-collapse: collapse;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+thead {
+    background: rgb(240, 200, 19);
+    text-align: center;
+   
+}
+th, td {
+    border: 2px solid rgb(240, 200, 19);
+    padding: 2rem;
+    
+}
+
+tbody {
+    background: rgb(88, 48, 184);
+    color: white;
+    text-align: left;
+}
+th:nth-of-type(even)  {
+    background: rgba(219, 144, 4, 0.555);
+}
