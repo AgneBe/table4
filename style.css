@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 table {
     margin: 100px auto;
-    border: 1px solid  rgb(240, 200, 19);
-    width: 80%;
+    border: 3px solid white;
     border-collapse: collapse;
-    font-family: 'Montserrat';
-    font-weight: 600;
-}
-thead {
-    background: rgb(240, 200, 19);
-    text-align: center;
-   
-}
-th, td {
-    border: 2px solid rgb(240, 200, 19);
-    padding: 2rem;
-    
+    width: 80%;
+    color: white;
+    background-color: pink;
+    font-size: 180%;
+    font-family: 'Open Sans', sans-serif;
 }
 
-tbody {
-    background: rgb(88, 48, 184);
-    color: white;
+th, td {
+    border: 3px solid white;
+    padding: 1rem;
     text-align: left;
 }
-th:nth-of-type(even)  {
-    background: rgba(219, 144, 4, 0.555);
+thead {
+    background-color: rgb(146, 26, 110);
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: rgb(158, 79, 142);
+}  
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(238, 125, 216);
 }
